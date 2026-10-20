@@ -389,8 +389,8 @@ export const PujaDetailPage: React.FC = () => {
               {/* Consultation Hotline */}
               <div className="p-3 rounded-xl bg-gold-50 border border-gold-200 text-center text-xs">
                 <span className="text-charcoal-600">Need Gotra or Muhurat advice?</span>
-                <a href="tel:+97143987654" className="block font-bold text-maroon-900 hover:underline mt-0.5">
-                  Call Dubai Acharya: +971 4 398 7654
+                <a href="tel:+971585924188" className="block font-bold text-maroon-900 hover:underline mt-0.5">
+                  Call: +971 58 592 4188
                 </a>
               </div>
             </div>

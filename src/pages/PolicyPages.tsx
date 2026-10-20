@@ -107,7 +107,7 @@ export const CancellationPage: React.FC = () => (
 
         <h3 className="font-serif font-bold text-base text-maroon-900 pt-2">How to Request Cancellation or Rescheduling:</h3>
         <p>
-          Visit your <Link to="/my-bookings" className="text-maroon-800 font-bold underline">My Bookings</Link> dashboard, click on your ceremony reference, or contact our 24/7 Dubai support coordinator via WhatsApp at <strong>+971 50 123 4567</strong>.
+          Visit your <Link to="/my-bookings" className="text-maroon-800 font-bold underline">My Bookings</Link> dashboard, click on your ceremony reference, or contact our 24/7 Dubai support coordinator via WhatsApp at <strong>+971 58 592 4188</strong>.
         </p>
       </div>
 

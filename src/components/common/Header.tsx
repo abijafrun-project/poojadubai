@@ -137,12 +137,12 @@ export const Header: React.FC = () => {
 
             {/* Helpline */}
             <a 
-              href="tel:+97143987654" 
+              href="tel:+971585924188" 
               className="flex items-center gap-1 text-ivory/90 hover:text-gold-300 transition-colors"
             >
               <PhoneCall className="w-3 h-3 text-saffron-400" />
               <span className="hidden sm:inline">Dubai Helpline:</span>
-              <span className="font-semibold">+971 4 398 7654</span>
+              <span className="font-semibold">+971 58 592 4188</span>
             </a>
           </div>
         </div>

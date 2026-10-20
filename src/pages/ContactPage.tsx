@@ -69,8 +69,7 @@ export const ContactPage: React.FC = () => {
                   <div>
                     <strong className="text-charcoal-900 block font-serif text-sm">Dubai Hotlines:</strong>
                     <p className="text-charcoal-600 mt-0.5 font-semibold">
-                      +971 4 398 7654 (Landline)<br />
-                      +971 50 123 4567 (WhatsApp 24/7)
+                      +971 58 592 4188 (WhatsApp 24/7)
                     </p>
                   </div>
                 </div>

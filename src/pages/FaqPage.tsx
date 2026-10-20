@@ -130,11 +130,11 @@ export const FaqPage: React.FC = () => {
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
             <a
-              href="tel:+97143987654"
+              href="tel:+971585924188"
               className="px-5 py-2.5 bg-maroon-800 text-white rounded-xl text-xs font-bold hover:bg-maroon-900 transition-colors flex items-center gap-1.5"
             >
               <PhoneCall className="w-3.5 h-3.5 text-gold-300" />
-              <span>Call +971 4 398 7654</span>
+              <span>Call +971 58 592 4188</span>
             </a>
             <Link
               to="/contact"

@@ -72,7 +72,7 @@ export const PanditProfilePage: React.FC = () => {
                 </Link>
 
                 <a
-                  href="tel:+97143987654"
+                  href="tel:+971585924188"
                   className="px-4 py-3 bg-ivory hover:bg-gold-100 text-charcoal-800 border border-gold-300 rounded-xl text-xs font-bold transition-colors flex items-center gap-2"
                 >
                   <PhoneCall className="w-4 h-4 text-saffron-600" />
