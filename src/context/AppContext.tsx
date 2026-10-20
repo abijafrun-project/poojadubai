@@ -27,7 +27,7 @@ interface AppContextType {
   currency: string;
   setCurrency: (currency: string) => void;
   formatPrice: (amountInAED: number) => string;
-  
+
   // Cart
   cart: CartItem[];
   addToCart: (product: Product, quantity?: number) => void;
@@ -76,7 +76,7 @@ const INITIAL_DEMO_BOOKINGS: Booking[] = [
     packageName: 'Pandit with Puja Samagri',
     priceAED: 799,
     currency: 'AED',
-    customerName: 'Aarav Mehta',
+    customerName: 'Rakhshmi',
     phone: '+971 50 123 4567',
     email: 'aarav.mehta@example.com',
     specialInstructions: 'Please instruct security at tower reception. Low-smoke havan preferred.',
@@ -211,7 +211,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
   const formatPrice = (amountInAED: number): string => {
     const currentConfig = CURRENCIES[currency] || CURRENCIES.AED;
     const converted = amountInAED * currentConfig.rateAgainstAED;
-    
+
     if (currency === 'INR') {
       return `${currentConfig.symbol} ${Math.round(converted).toLocaleString('en-IN')}`;
     }
