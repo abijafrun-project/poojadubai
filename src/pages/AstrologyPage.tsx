@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { ASTROLOGY_SERVICES } from '../data/astrologyData';
 import { useApp } from '../context/AppContext';
-import { 
-  Sparkles, 
-  Compass, 
-  HeartHandshake, 
-  Calendar, 
-  ShieldCheck, 
-  Check, 
-  ArrowRight, 
+import {
+  Sparkles,
+  Compass,
+  HeartHandshake,
+  Calendar,
+  ShieldCheck,
+  Check,
+  ArrowRight,
   Info,
   Clock,
   User,
@@ -20,7 +20,7 @@ export const AstrologyPage: React.FC = () => {
 
   // Selected Service for Inquiry
   const [selectedServiceId, setSelectedServiceId] = useState<string>('kundli-birth-chart');
-  
+
   // Form State
   const [name, setName] = useState(user?.name || 'Rakshmi');
   const [phone, setPhone] = useState(user?.phone || '+971 50 123 4567');
@@ -28,7 +28,7 @@ export const AstrologyPage: React.FC = () => {
   const [birthTime, setBirthTime] = useState('07:45');
   const [birthPlace, setBirthPlace] = useState('Dubai, UAE');
   const [specificConcern, setSpecificConcern] = useState('Career promotion timing and business expansion for 2026-2027.');
-  
+
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const activeService = ASTROLOGY_SERVICES.find(s => s.id === selectedServiceId) || ASTROLOGY_SERVICES[0];
@@ -42,7 +42,7 @@ export const AstrologyPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-ivory py-10 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto space-y-10">
-        
+
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto space-y-3">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-saffron-100 text-saffron-800 text-xs font-bold uppercase tracking-wider">
@@ -72,11 +72,10 @@ export const AstrologyPage: React.FC = () => {
             return (
               <div
                 key={service.id}
-                className={`bg-white rounded-3xl p-6 border transition-all duration-300 flex flex-col justify-between group ${
-                  isSelected
+                className={`bg-white rounded-3xl p-6 border transition-all duration-300 flex flex-col justify-between group ${isSelected
                     ? 'border-maroon-800 ring-2 ring-maroon-800 shadow-spiritual-lg'
                     : 'border-gold-200 shadow-sm hover:shadow-spiritual'
-                }`}
+                  }`}
               >
                 <div className="space-y-3">
                   <div className="flex items-center justify-between">
@@ -115,11 +114,10 @@ export const AstrologyPage: React.FC = () => {
                       const el = document.getElementById('astrology-form');
                       if (el) el.scrollIntoView({ behavior: 'smooth' });
                     }}
-                    className={`w-full py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider transition-all ${
-                      isSelected
+                    className={`w-full py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider transition-all ${isSelected
                         ? 'bg-maroon-800 text-white shadow'
                         : 'bg-ivory text-charcoal-800 border border-gold-300 hover:bg-gold-100'
-                    }`}
+                      }`}
                   >
                     {isSelected ? '✓ Selected for Inquiry' : 'Select Service'}
                   </button>
@@ -146,7 +144,7 @@ export const AstrologyPage: React.FC = () => {
           {!isSubmitted ? (
             <form onSubmit={handleInquirySubmit} className="space-y-5">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                
+
                 <div className="space-y-1">
                   <label className="block text-xs font-bold text-charcoal-800">
                     Full Name <span className="text-red-500">*</span>
