@@ -100,7 +100,7 @@ const INITIAL_DEMO_BOOKINGS: Booking[] = [
     packageName: 'Pandit Only (Live Stream Sankalp)',
     priceAED: 399,
     currency: 'AED',
-    customerName: 'Aarav Mehta',
+    customerName: 'Rakshmi',
     phone: '+971 50 123 4567',
     email: 'aarav.mehta@example.com',
     specialInstructions: 'Family will join on Zoom from Dubai and London.',
