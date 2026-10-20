@@ -75,7 +75,7 @@ export const BookingWizardPage: React.FC = () => {
   const [selectedPackageId, setSelectedPackageId] = useState<string>(packageParam);
 
   // Step 7: Devotee Contact Information
-  const [fullName, setFullName] = useState<string>(user?.name || 'Aarav Mehta');
+  const [fullName, setFullName] = useState<string>(user?.name || 'Rakshmi');
   const [phone, setPhone] = useState<string>(user?.phone || '+971 50 123 4567');
   const [email, setEmail] = useState<string>(user?.email || 'aarav.mehta@example.com');
   const [gotra, setGotra] = useState<string>('Kashyapa (Optional)');

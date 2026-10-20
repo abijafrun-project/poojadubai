@@ -64,7 +64,7 @@ export const LoginPage: React.FC = () => {
             className="w-full py-3 px-4 bg-gradient-to-r from-maroon-800 to-maroon-900 hover:from-maroon-900 hover:to-maroon-950 text-white rounded-xl text-xs font-bold uppercase tracking-wider shadow transition-all flex items-center justify-center gap-2"
           >
             <Sparkles className="w-4 h-4 text-gold-300" />
-            <span>1-Click Login: Devotee (Aarav Mehta)</span>
+            <span>1-Click Login: Devotee (Rakshmi)</span>
           </button>
 
           <button

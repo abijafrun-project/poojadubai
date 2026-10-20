@@ -150,7 +150,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
       if (saved) return JSON.parse(saved);
       return {
         id: 'usr_dxb_108',
-        name: 'Aarav Mehta',
+        name: 'Rakshmi',
         email: 'aarav.mehta@example.com',
         phone: '+971 50 123 4567',
         city: 'Dubai',
@@ -298,14 +298,14 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     } else {
       setUser({
         id: 'usr_dxb_108',
-        name: 'Aarav Mehta',
+        name: 'Rakshmi',
         email: 'aarav.mehta@example.com',
         phone: '+971 50 123 4567',
         city: 'Dubai',
         country: 'United Arab Emirates',
         isDemo: true
       });
-      showToast('Logged in as Devotee (Aarav Mehta)', 'success');
+      showToast('Logged in as Devotee (Rakshmi)', 'success');
     }
   };
 

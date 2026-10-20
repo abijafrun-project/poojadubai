@@ -17,7 +17,7 @@ export const ProfilePage: React.FC = () => {
   const { user, updateUserProfile, logout, bookings, formatPrice } = useApp();
   const navigate = useNavigate();
 
-  const [name, setName] = useState(user?.name || 'Aarav Mehta');
+  const [name, setName] = useState(user?.name || 'Rakshmi');
   const [email, setEmail] = useState(user?.email || 'aarav.mehta@example.com');
   const [phone, setPhone] = useState(user?.phone || '+971 50 123 4567');
   const [city, setCity] = useState(user?.city || 'Dubai');

@@ -22,7 +22,7 @@ export const AstrologyPage: React.FC = () => {
   const [selectedServiceId, setSelectedServiceId] = useState<string>('kundli-birth-chart');
   
   // Form State
-  const [name, setName] = useState(user?.name || 'Aarav Mehta');
+  const [name, setName] = useState(user?.name || 'Rakshmi');
   const [phone, setPhone] = useState(user?.phone || '+971 50 123 4567');
   const [birthDate, setBirthDate] = useState('1992-06-18');
   const [birthTime, setBirthTime] = useState('07:45');
